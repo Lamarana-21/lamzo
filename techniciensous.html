@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techniciens - OKNET</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/css.css">
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .tech-type-container {
+            margin-top: 50px;
+        }
+
+        .tech-type-card {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tech-type-card h3 {
+            color: #007bff;
+            font-size: 1.5rem;
+        }
+
+        .tech-type-card p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .btn-primary {
+            background-color: #ffc107;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #ff8c00;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        footer a:hover {
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><strong>OK.NET</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="Acceuil.html">Acceuil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="client.html">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="materiel.html">Matériel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="operation.html">Opérations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="technicien.html">Techniciens</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center my-5">Nos Techniciens Experts</h1>
+
+        <!-- Liste des types de techniciens -->
+        <div class="tech-type-container">
+            <!-- Réparation Matérielle -->
+            <div class="tech-type-card">
+                <h3>Technicien Réparation Matérielle</h3>
+                <p><strong>Compétence:</strong> Réparation et remplacement de composants matériels défectueux.</p>
+                <p><strong>Années d'Expérience:</strong> 10 ans</p>
+                <p><strong>Exemples d'interventions:</strong> Remplacement de carte mère, réparation de disque dur, remplacement de RAM.</p>
+                <p><strong>Outils utilisés:</strong> Multimètre, fer à souder, tournevis de précision, etc.</p>
+                <a href="technicienplus.html" class="btn btn-primary">En savoir plus</a>
+            </div>
+
+            <!-- Réparation Logicielle -->
+            <div class="tech-type-card">
+                <h3>Technicien Réparation Logicielle</h3>
+                <p><strong>Compétence:</strong> Diagnostic et correction de problèmes logiciels sur les systèmes d'exploitation et les applications.</p>
+                <p><strong>Années d'Expérience:</strong> 8 ans</p>
+                <p><strong>Exemples d'interventions:</strong> Résolution de bugs, installation de logiciels, réparation de systèmes d'exploitation, optimisation des performances.</p>
+                <p><strong>Outils utilisés:</strong> Logiciels de diagnostic, outils de nettoyage système, logiciels antivirus.</p>
+                <a href="technicienplus.html" class="btn btn-primary">En savoir plus</a>
+            </div>
+
+            <!-- Configuration Réseau -->
+            <div class="tech-type-card">
+                <h3>Technicien Configuration Réseau</h3>
+                <p><strong>Compétence:</strong> Mise en place et gestion de réseaux informatiques, configuration de routeurs, sécurité des réseaux.</p>
+                <p><strong>Années d'Expérience:</strong> 5 ans</p>
+                <p><strong>Exemples d'interventions:</strong> Configuration de routeurs, optimisation de réseaux locaux, mise en place de VPN, gestion des pare-feu.</p>
+                <p><strong>Outils utilisés:</strong> Routeurs, câblage réseau, analyseurs de réseau, logiciels de gestion de réseau.</p>
+                <a href="technicienplus.html" class="btn btn-primary">En savoir plus</a>
+            </div>
+        </div>
+
+        <!-- Appel à l'action -->
+        <div class="text-center my-5">
+            <h2>Besoin d'un service de maintenance ?</h2>
+            <p>Nos techniciens sont à votre disposition pour répondre à tous vos besoins en réparation et en configuration.</p>
+            <a href="Contact.html" class="btn btn-primary btn-lg">Contactez-nous</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <h5 class="text-uppercase mb-3">Suivez-nous</h5>
+            <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      <div class="container">
+        <div class="row text-center text-md-left">
+          <!-- Section Informations principales -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="text-uppercase mb-3">OKNET - Maintenance Informatique</h5>
+            <p>Spécialisée dans la maintenance informatique et l'installation de systèmes Windows. Expertise et qualité garantis.</p>
+          </div>
+    
+          <!-- Section Adresse -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="text-uppercase mb-3">Adresse</h5>
+            <address>
+              Houmet souq,<br>
+               careffour Chiraa,<br>
+              75001 Djerba , Tunisie
+            </address>
+          </div>
+    
+          <!-- Section Contact -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="text-uppercase mb-3">Contact</h5>
+            <p>
+              <strong>Email :</strong> <a href="mailto:contact@oknet.com" class="text-white">oknetdjerba@yahoo.fr</a><br>
+              <strong>Téléphone :</strong> +216 53175648<br>
+              <strong>Site web :</strong> <a href="https://www.oknet.com" class="text-white text-decoration-underline" target="_blank">woknetdjerba@yahoo.fr</a>
+            </p>
+          </div>
+        </div>
+    
+        <!-- Section Réseaux sociaux -->
+        
+    
+        <hr class="my-4">
+    
+        <!-- Bas du footer -->
+        <div class="text-center">
+          <p class="mb-0">&copy; 2025 OKNET. Tous droits réservés.</p>
+        </div>
+      </div>
+        </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

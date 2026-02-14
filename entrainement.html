@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script type="text/javascript">
+ let b1 = document.querySelector('button');
+ let d1 = document.querySelector('div'); 
+/* On utilise la méthode addEventListener pour gérer des 
+évènements */
+ b1.addEventListener('click', function(){alert('Bouton cliqué')}); 
+d1.addEventListener('mouseover', function(){ 
+this.style.backgroundColor='orange';
+this.style.fontWeight='bold';});
+ d1.addEventListener('mouseout', function(){ 
+this.style.backgroundColor='white'});
+</script>
+
+</head>
+
+<body >
+
+    <h1>Titre principal</h1> 
+<p>Un premier paragraphe</p> 
+<button>Cliquez moi !</button> 
+<div> 
+<p>Un paragraphe dans un div</p> 
+<p>Un autre paragraphe dans le div</p> 
+</div>
+</body>
+</html>
+
+
+    
